@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\INF1018-Devoir-1\INF1018-Exercice-FSharp.fsproj" />
+    <ProjectReference Include="..\INF1018_Exercice_FSharp\INF1018-Exercice-FSharp.fsproj" />
   </ItemGroup>
 
 </Project>
