@@ -1,8 +1,8 @@
-namespace Devoir1_Tests
+namespace Exercice_FSharp_Tests
 
 open System
 open Microsoft.VisualStudio.TestTools.UnitTesting
-open INF1018_Devoir_1.Devoir1
+open INF1018_Exercice_FSharp.Exercice
 
 [<TestClass>]
 type TestClass () =

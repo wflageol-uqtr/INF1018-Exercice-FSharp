@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>INF1018_Devoir_1</RootNamespace>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>INF1018_Exercice_FSharp</RootNamespace>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Devoir1.fs" />
+    <Compile Include="Exercice.fs" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
-﻿namespace INF1018_Devoir_1
+﻿namespace INF1018_Exercice_FSharp
 
-module Devoir1 =
+module Exercice =
     // Mise en situation (source : https://exercism.org/tracks/fsharp/exercises/cars-assemble)
 
     // Considérez une ligne d'assemblage d'automobiles pouvant être réglée à
@@ -22,18 +22,12 @@ module Devoir1 =
 
     // Calculez le taux de réussite pour une vitesse donnée.
     let calculateSuccessRate speed =
-        match speed with
-        | 0 -> 0.0
-        | _ when speed >= 1 && speed <= 4 -> 1.0
-        | _ when speed >= 5 && speed <= 8 -> 0.9
-        | 9 -> 0.8
-        | 10 -> 0.77
-        | _ -> failwith "Error."
+        failwith "Pas encore implémenté."
 
     // Calculez le taux de production par heure basé sur la vitesse, en considérant le taux de réussite.
     let calculateHourlyProductionRate speed =
-        (float speed) * 221.0 * calculateSuccessRate speed
+        failwith "Pas encore implémenté."
 
     // Calculez le nombre entier d'automobiles produite par minute. Arrondissez à l'entier inférieur.
     let calculateWorkingCarsPerMinute speed =
-        calculateHourlyProductionRate speed / 60.0 |> int
+        failwith "Pas encore implémenté."
